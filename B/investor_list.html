@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="user_menu flex flex_a_c flex_e">
+                <div class="user_menu_links flex">
+                    <div class="sign_up_link">회원가입</div>
+                    <div class="sign_in_link">로그인</div>
+                    <div class="admin_link">관리자</div>
+                </div>
+            </div>
+            <div class="logo_menu">
+                <div class="logo">
+                    <img src="images/logo (2).png" alt="">
+                </div>
+            </div>
+            <div class="nav_menu">
+                <div class="nav_menu_links flex flex_a_c flex_b">
+                    <div>메인페이지</div>
+                    <div>펀드등록</div>
+                    <div>펀드보기</div>
+                    <div class="on">투자자목록</div>
+                    <div>얼리버드</div>
+                </div>
+                <div class="search_box flex flex_a_c">
+                    <input type="text" class="search_input" placeholder="어떤 프로젝트를 찾고 계신가요?">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="visual">
+        <div class="slide_container">
+            <div class="slide_item">
+                <div class="container">
+                    <div>곧 오픈할<br>
+                        인기 펀딩
+                    </div>
+                    <p>알람신청 하고 얼리버드 놓치지 마세요</p>
+                </div>
+                <img src="images/slid_img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="investor_section">
+            <div class="section_title">
+                <div class="flex flex_b">
+                    <span>투자자 목록</span>
+                    <select class="form-select investor_select">
+                        <option value="최근등록순">최근등록순</option>
+                        <option value="펀드별">펀드별</option>
+                        <option value="개인별">개인별</option>
+                    </select>
+                </div>
+                <hr>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td width="15%">펀드번호</td>
+                        <td width="25%">창업펀드명</td>
+                        <td width="15%">투자자명</td>
+                        <td width="20%">투자금액</td>
+                        <td width="20%">펀드지분</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A001</td>
+                        <td>안진우펀드</td>
+                        <td>안진우</td>
+                        <td>32,000</td>
+                        <td>
+                            <div class="bar_graph"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A001</td>
+                        <td>안진우펀드</td>
+                        <td>안진우</td>
+                        <td>32,000</td>
+                        <td>
+                            <div class="bar_graph"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A001</td>
+                        <td>안진우펀드</td>
+                        <td>안진우</td>
+                        <td>32,000</td>
+                        <td>
+                            <div class="bar_graph"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A001</td>
+                        <td>안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드안진우펀드</td>
+                        <td>안진우</td>
+                        <td>32,000</td>
+                        <td>
+                            <div class="bar_graph"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination_group flex flex_c m_t_30 m_b_30">
+                <div class="prev disable">&lt;</div>
+                <div class="active">1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div class="next">&gt;</div>
+            </div>
+        </div>
+   
+    </div>
+
+
+    <footer>
+        <div class="footer_menu">
+            <div class="container">
+                <div class="footer_menu_grid">
+                    <span>회원가입약관</span>
+                    <span>서비스이용약관</span>
+                    <span>개인정보처리방침</span>
+                    <span>운영정책</span>
+                    <span>제휴문의</span>
+                    <span>공지사항</span>
+                    <span>인재채용</span>
+                    <span>SNS</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer_info">
+            <div class="container">
+                Tel) 031-778-2300 <br>
+                우) 13587 경기 성남시 분당구 불정로386번길 35 양영디지털고등학교<br>
+                Copyright Gondr Allright reserved. Since 2017-03-01<br>
+            </div>
+        </div>
+        <div class="footer_notice flex flex_c">
+            <div class="fw_600 m_r_10">
+                투자위험고지
+            </div>
+            <span>비상장기업투자는 원금손실의 가능성이 크니 주의 바랍니다</span>
+        </div>
+    </footer>
+</body>
+
+</html>
